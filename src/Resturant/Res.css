@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+  box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 1);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.Buttons{
+    width: 100;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.button{
+    text-align: center;
+    padding: 25px;
+}
+ .button button{
+    width: 8vw;
+    height: 7vh;
+    background-color: rgb(233, 233, 16);
+    padding: 10px;
+    border-color: white;
+    border-radius: 5px;
+    color:  black(61, 60, 60);
+}
+.button button:hover{
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+.menu-items{
+    width: 100vw;
+    min-height: 60vh;
+    box-sizing: border-box;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:   1fr 1fr 1fr ;
+    row-gap: 25px;
+    column-gap: 0px;
+    justify-items: center; 
+}
+.items{
+    width: 26vw;
+    height: 24vh;
+    display: flex;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 10px 10px 10px 10px rgb(192, 191, 191);
+    border-radius: 6px;
+    /* align-self: center; */
+}
+.image{
+    width: 48%;
+}
+.image img{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.details {
+  align-self: center;
+  margin-left: 14px;
+}
+.price-button{
+    margin-top: 15px;
+    display: flex;
+    color: rgb(98, 212, 98);
+}
+.price-button h2{
+    width:  55%;
+}
+.price-button button{
+       background-color: rgb(98, 212, 98);
+       border-color: white;
+       padding: 8px;
+       border-radius: 5px;
+}
+.price-button button:hover{
+    background-color: green;
+}
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    background-color: rgb(236, 235, 235);
+    box-shadow: 20px 20px 20px 20px rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* form css */
+
+.contact-form{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9vh;
+  }
+  .form{
+    padding: 20px;
+    background-color: rgb(251, 253, 255);
+    box-shadow: 10px 10px 10px 10px rgb(207, 206, 206);
+  }
+  .form h3{
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .input{
+    padding: 5px;
+    font-size: 1.7vw;
+    font-weight: 400 ;
+  }
+  .input input, select{
+    width: 35vw;
+    height: 5vh;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  textarea{
+    width: 35vw;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  .form-button{
+    background-color: #fff;
+    margin: 1px;
+    padding: 7px;
+    border: 2px solid rgb(97, 87, 87);
+    width: 120px;
+    border-radius: 5px;
+    color: #868686;
+    margin-bottom: 20px;
+  }
+  .form-button:hover{
+    padding: 10px;
+    background-color: rgb(43, 43, 223);
+    color: #fff;
+  }
